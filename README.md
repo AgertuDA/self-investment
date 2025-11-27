@@ -2,6 +2,7 @@
 
 A web application that helps users manage their allowance, track hobbies, participate in challenges, submit proofs, and grow through personal development activities. The system includes both User and Admin functionalities.
 
+<br><br>
 
 🔗 Live Links
 
@@ -15,6 +16,7 @@ GitHub Repository: Add link here
 
 SRS Document: Add link here
 
+<br><br>
 
 📌 Project Overview
 
@@ -72,6 +74,7 @@ View and verify proofs
 
 Logout
 
+<br><br>
 
 # 📁 Project Structure
 
