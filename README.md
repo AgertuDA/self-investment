@@ -22,32 +22,54 @@ This project implements the functionalities defined in the Software Requirements
 👤 User Features
 
 •	Registration & login
+
 •	Personalization questionnaire (hobbies, interests, allowance)
+
 •	Dashboard displaying:
+
 o	Points earned
+
 o	Day streak
+
 o	Completed hobbies
+
 o	Hobby progress
+
 o	Allowance plan
+
 o	Active challenges
+
 o	Rewards
+
 •	Add / delete hobbies
+
 •	Submit proof for completed hobbies
+
 •	Participate in challenges
+
 •	View rewards and progress
 
 
 🛠 Admin Features
 
 •	Admin login
+
 •	Dashboard overview:
+
 o	Total users
+
 o	Total admins
+
 o	Total hobbies
+
 o	Verified / Pending / Rejected proofs
+
 •	View all users
+
 •	Create and manage challenges
+
 •	View and verify proofs
+
 •	Logout
 
 
@@ -93,8 +115,8 @@ Follow every step carefully to run this project on your machine.
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YourUsername/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/AgertuDA/self-investment.git
+cd self-investment
 ```
 
 
