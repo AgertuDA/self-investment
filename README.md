@@ -2,7 +2,7 @@
 
 A web application that helps users manage their allowance, track hobbies, participate in challenges, submit proofs, and grow through personal development activities. The system includes both User and Admin functionalities.
 
-<br><br>
+<br>
 
 🔗 Live Links
 
@@ -108,6 +108,7 @@ Below is the full structure of the project (Frontend + Backend):
 └─ LICENSE
 ```
 
+<br>
 
 🛠️ Setup Instructions (Local Development)
 
@@ -121,7 +122,7 @@ git clone https://github.com/YourUsername/your-repo-name.git
 cd your-repo-name
 ```
 
-
+<br>
 
 ## 2️⃣ Install Backend Dependencies
 
@@ -143,6 +144,7 @@ JWT_SECRET=your_jwt_secret_here
 > Ensure MongoDB is installed and running if you're using a local database.
 
 
+<br>
 
 ## 3️⃣ Start the Backend
 
