@@ -4,17 +4,14 @@ A web application that helps users manage their allowance, track hobbies, partic
 
 <br>
 
-# 🔗 Live Links
+# 🔗 Links
 
-Replace these with your actual links:
 
-Deployed Application: Add link here
+Deployed Application: https://self-investment-app.onrender.com/
 
-Project Video (5–10 min): Add link here
+Demo Video : https://youtu.be/4E8HDJFdR7o
 
-GitHub Repository: Add link here
-
-SRS Document: Add link here
+SRS Document: https://docs.google.com/document/d/1lnXZIKUXmVSWyD_Ku6oL6aEAcIK6Z2MJxr1tup1Mfwg/edit?usp=sharing
 
 <br>
 
@@ -175,11 +172,15 @@ Open that in your browser.
 
 For Users:
 
-1.	Open the frontend link.
-2.	Register a new account.
-3.	Complete the questionnaire.
-4.	Access the dashboard.
-5.	Add hobbies, join challenges, or submit proofs.
+•	Open the frontend link.
+
+•	Register a new account.
+
+•	Complete the questionnaire.
+
+•	Access the dashboard.
+
+•	Add hobbies, join challenges, or submit proofs.
 
 
 For Admins:
