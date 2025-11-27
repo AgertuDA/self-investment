@@ -1,0 +1,135 @@
+.proofs-screen {
+  min-height: 100vh;
+  background: #eee;
+}
+
+.proofs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.proofs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.proofs-header h1 {
+  color: #1F2F4F;
+}
+
+.submit-proof-form {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-proof-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.submit-proof-form select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+.proofs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.proof-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #ddd;
+}
+
+.proof-card.verified {
+  border-left-color: #4CAF50;
+}
+
+.proof-card.pending {
+  border-left-color: #FF9800;
+}
+
+.proof-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.proof-card-header h3 {
+  color: #1F2F4F;
+  font-size: 1.2rem;
+}
+
+.proof-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.proof-status.verified {
+  background: #e8f5e9;
+  color: #388e3c;
+}
+
+.proof-status.pending {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.proof-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.proof-submission {
+  color: #666;
+  word-wrap: break-word;
+}
+
+.proof-submission img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.proof-reward {
+  color: #4CAF50;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.proof-date {
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .proofs-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+}
+
