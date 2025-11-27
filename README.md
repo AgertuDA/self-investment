@@ -70,24 +70,5 @@ View and verify proofs
 
 Logout
 
-project/
-├── frontend/
-│ ├── src/
-│ ├── index.html
-│ ├── package.json
-│ ├── vite.config.ts
-│ ├── tailwind.config.js
-│ ├── tsconfig.json
-│ └── README.md
-│
-└── server/
-├── config/
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-├── scripts/
-├── utils/
-├── server.js
-├── package.json
-└── render.yaml
+<img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/1dab76e9-03dd-4f23-bb35-1db23d57e42d" />
+
