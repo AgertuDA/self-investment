@@ -2,6 +2,7 @@
 
 A web application that helps users manage their allowance, track hobbies, participate in challenges, submit proofs, and grow through personal development activities. The system includes both User and Admin functionalities.
 
+
 🔗 Live Links
 
 Replace these with your actual links:
@@ -13,6 +14,7 @@ Project Video (5–10 min): Add link here
 GitHub Repository: Add link here
 
 SRS Document: Add link here
+
 
 📌 Project Overview
 
@@ -70,13 +72,44 @@ View and verify proofs
 
 Logout
 
-📂 Project Structure
 
-<img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/1dab76e9-03dd-4f23-bb35-1db23d57e42d" />
+# 📁 Project Structure
+
+Below is the full structure of the project (Frontend + Backend):
+
+```
+/project-root
+│
+├─ frontend/
+│   ├─ src/
+│   ├─ index.html
+│   ├─ package.json
+│   ├─ tailwind.config.js
+│   ├─ vite.config.ts
+│   ├─ tsconfig.json
+│   └─ ...
+│
+├─ server/
+│   ├─ config/
+│   ├─ controllers/
+│   ├─ middleware/
+│   ├─ models/
+│   ├─ routes/
+│   ├─ utils/
+│   ├─ scripts/
+│   ├─ server.js
+│   ├─ package.json
+│   └─ render.yaml
+│
+├─ README.md
+└─ LICENSE
+```
+
 
 🛠️ Setup Instructions (Local Development)
 
 Follow every step carefully to run this project on your machine.
+
 
 ## 1️⃣ Clone the Repository
 
@@ -85,7 +118,7 @@ git clone https://github.com/YourUsername/your-repo-name.git
 cd your-repo-name
 ```
 
----
+
 
 ## 2️⃣ Install Backend Dependencies
 
@@ -124,7 +157,7 @@ The backend will run at:
 http://localhost:5000
 ```
 
----
+
 
 ## 4️⃣ Install Frontend Dependencies
 
@@ -137,7 +170,7 @@ npm install
 yarn install
 ```
 
----
+
 
 ## 5️⃣ Start the Frontend
 
@@ -159,34 +192,3 @@ Open that in your browser.
 
 ---
 
-# 📁 Project Structure
-
-Below is the full structure of the project (Frontend + Backend):
-
-```
-/project-root
-│
-├─ frontend/
-│   ├─ src/
-│   ├─ index.html
-│   ├─ package.json
-│   ├─ tailwind.config.js
-│   ├─ vite.config.ts
-│   ├─ tsconfig.json
-│   └─ ...
-│
-├─ server/
-│   ├─ config/
-│   ├─ controllers/
-│   ├─ middleware/
-│   ├─ models/
-│   ├─ routes/
-│   ├─ utils/
-│   ├─ scripts/
-│   ├─ server.js
-│   ├─ package.json
-│   └─ render.yaml
-│
-├─ README.md
-└─ LICENSE
-```
