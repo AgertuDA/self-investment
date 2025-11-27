@@ -1,10 +1,10 @@
-📘 Self-Investment Web Application v1.0
+#📘 Self-Investment Web Application v1.0
 
 A web application that helps users manage their allowance, track hobbies, participate in challenges, submit proofs, and grow through personal development activities. The system includes both User and Admin functionalities.
 
 <br>
 
-🔗 Live Links
+#🔗 Live Links
 
 Replace these with your actual links:
 
