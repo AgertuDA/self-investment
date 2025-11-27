@@ -69,3 +69,22 @@ Create and manage challenges
 View and verify proofs
 
 Logout
+
+/
+├─ frontend/
+│  ├─ src/
+│  ├─ index.html
+│  ├─ package.json
+│  └─ ...
+│
+├─ server/
+│  ├─ config/
+│  ├─ controllers/
+│  ├─ middleware/
+│  ├─ models/
+│  ├─ routes/
+│  ├─ utils/
+│  ├─ server.js
+│  └─ package.json
+│
+└─ README.md
