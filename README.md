@@ -108,7 +108,6 @@ Below is the full structure of the project (Frontend + Backend):
 └─ LICENSE
 ```
 
-<br>
 
 🛠️ Setup Instructions (Local Development)
 
@@ -122,7 +121,6 @@ git clone https://github.com/YourUsername/your-repo-name.git
 cd your-repo-name
 ```
 
-<br>
 
 ## 2️⃣ Install Backend Dependencies
 
