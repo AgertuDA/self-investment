@@ -70,21 +70,24 @@ View and verify proofs
 
 Logout
 
-/
-├─ frontend/
-│  ├─ src/
-│  ├─ index.html
-│  ├─ package.json
-│  └─ ...
+project/
+├── frontend/
+│ ├── src/
+│ ├── index.html
+│ ├── package.json
+│ ├── vite.config.ts
+│ ├── tailwind.config.js
+│ ├── tsconfig.json
+│ └── README.md
 │
-├─ server/
-│  ├─ config/
-│  ├─ controllers/
-│  ├─ middleware/
-│  ├─ models/
-│  ├─ routes/
-│  ├─ utils/
-│  ├─ server.js
-│  └─ package.json
-│
-└─ README.md
+└── server/
+├── config/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── scripts/
+├── utils/
+├── server.js
+├── package.json
+└── render.yaml
