@@ -185,8 +185,11 @@ For Users:
 For Admins:
 
 •  Go to the admin login page.
+
 •  Enter admin email + password.
+
 •  Access the admin dashboard.
+
 •  View users, manage challenges, verify proofs
 
 
