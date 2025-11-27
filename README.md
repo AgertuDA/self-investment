@@ -78,8 +78,83 @@ Logout
 
 Follow every step carefully to run this project on your machine.
 
-# 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 
 ```bash
-git clone …
+git clone https://github.com/YourUsername/your-repo-name.git
+cd your-repo-name
+```
 
+---
+
+## 2️⃣ Install Backend Dependencies
+
+```bash
+cd server
+npm install
+# or
+yarn install
+```
+
+Create a file named **`.env`** inside the `server` folder and add:
+
+```ini
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/self_investment_db
+JWT_SECRET=your_jwt_secret_here
+```
+
+> Ensure MongoDB is installed and running if you're using a local database.
+
+---
+
+## 3️⃣ Start the Backend
+
+Still inside the `server` folder, run:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+The backend will run at:
+
+```text
+http://localhost:5000
+```
+
+---
+
+## 4️⃣ Install Frontend Dependencies
+
+Open a NEW terminal window:
+
+```bash
+cd frontend
+npm install
+# or
+yarn install
+```
+
+---
+
+## 5️⃣ Start the Frontend
+
+Inside the `frontend` folder, run:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Vite will show a local development URL like:
+
+```text
+http://localhost:5173
+```
+
+Open that in your browser.
+
+---
