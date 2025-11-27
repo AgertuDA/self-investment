@@ -1,10 +1,10 @@
-#📘 Self-Investment Web Application v1.0
+# 📘 Self-Investment Web Application v1.0
 
 A web application that helps users manage their allowance, track hobbies, participate in challenges, submit proofs, and grow through personal development activities. The system includes both User and Admin functionalities.
 
 <br>
 
-#🔗 Live Links
+# 🔗 Live Links
 
 Replace these with your actual links:
 
@@ -18,63 +18,43 @@ SRS Document: Add link here
 
 <br>
 
-📌 Project Overview
+# 📌 Project Overview
 
 This project implements the functionalities defined in the Software Requirements Specification (SRS) for version 1.0. It includes:
 
 👤 User Features
 
-Registration & login
+•	Registration & login
+•	Personalization questionnaire (hobbies, interests, allowance)
+•	Dashboard displaying:
+o	Points earned
+o	Day streak
+o	Completed hobbies
+o	Hobby progress
+o	Allowance plan
+o	Active challenges
+o	Rewards
+•	Add / delete hobbies
+•	Submit proof for completed hobbies
+•	Participate in challenges
+•	View rewards and progress
 
-Personalization questionnaire (hobbies, interests, allowance)
-
-Dashboard displaying:
-
-Points earned
-
-Day streak
-
-Completed hobbies
-
-Hobby progress
-
-Allowance plan
-
-Active challenges
-
-Rewards
-
-Add / delete hobbies
-
-Submit proof for completed hobbies
-
-Participate in challenges
-
-View rewards and progress
 
 🛠 Admin Features
 
-Admin login
+•	Admin login
+•	Dashboard overview:
+o	Total users
+o	Total admins
+o	Total hobbies
+o	Verified / Pending / Rejected proofs
+•	View all users
+•	Create and manage challenges
+•	View and verify proofs
+•	Logout
 
-Dashboard overview:
 
-Total users
-
-Total admins
-
-Total hobbies
-
-Verified / Pending / Rejected proofs
-
-View all users
-
-Create and manage challenges
-
-View and verify proofs
-
-Logout
-
-<br><br>
+<br>
 
 # 📁 Project Structure
 
@@ -108,8 +88,7 @@ Below is the full structure of the project (Frontend + Backend):
 └─ LICENSE
 ```
 
-
-🛠️ Setup Instructions (Local Development)
+## 🛠️ Setup Instructions (Local Development)
 
 Follow every step carefully to run this project on your machine.
 
@@ -142,7 +121,6 @@ JWT_SECRET=your_jwt_secret_here
 > Ensure MongoDB is installed and running if you're using a local database.
 
 
-<br>
 
 ## 3️⃣ Start the Backend
 
@@ -193,5 +171,22 @@ http://localhost:5173
 
 Open that in your browser.
 
+## 🎯 How to Use the System
+
+For Users:
+
+1.	Open the frontend link.
+2.	Register a new account.
+3.	Complete the questionnaire.
+4.	Access the dashboard.
+5.	Add hobbies, join challenges, or submit proofs.
+
+
+For Admins:
+
+•  Go to the admin login page.
+•  Enter admin email + password.
+•  Access the admin dashboard.
+•  View users, manage challenges, verify proofs
 
 
