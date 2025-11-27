@@ -16,7 +16,7 @@ GitHub Repository: Add link here
 
 SRS Document: Add link here
 
-<br><br>
+<br>
 
 📌 Project Overview
 
