@@ -74,3 +74,12 @@ Logout
 
 <img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/1dab76e9-03dd-4f23-bb35-1db23d57e42d" />
 
+🛠️ Setup Instructions (Local Development)
+
+Follow every step carefully to run this project on your machine.
+
+# 1️⃣ Clone the Repository
+
+```bash
+git clone …
+
