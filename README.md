@@ -70,5 +70,7 @@ View and verify proofs
 
 Logout
 
+📂 Project Structure
+
 <img width="311" height="645" alt="image" src="https://github.com/user-attachments/assets/1dab76e9-03dd-4f23-bb35-1db23d57e42d" />
 
