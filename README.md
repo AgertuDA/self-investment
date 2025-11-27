@@ -106,7 +106,7 @@ JWT_SECRET=your_jwt_secret_here
 
 > Ensure MongoDB is installed and running if you're using a local database.
 
----
+
 
 ## 3️⃣ Start the Backend
 
@@ -158,3 +158,35 @@ http://localhost:5173
 Open that in your browser.
 
 ---
+
+# 📁 Project Structure
+
+Below is the full structure of the project (Frontend + Backend):
+
+```
+/project-root
+│
+├─ frontend/
+│   ├─ src/
+│   ├─ index.html
+│   ├─ package.json
+│   ├─ tailwind.config.js
+│   ├─ vite.config.ts
+│   ├─ tsconfig.json
+│   └─ ...
+│
+├─ server/
+│   ├─ config/
+│   ├─ controllers/
+│   ├─ middleware/
+│   ├─ models/
+│   ├─ routes/
+│   ├─ utils/
+│   ├─ scripts/
+│   ├─ server.js
+│   ├─ package.json
+│   └─ render.yaml
+│
+├─ README.md
+└─ LICENSE
+```
